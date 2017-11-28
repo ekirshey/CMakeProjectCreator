@@ -104,7 +104,7 @@ def main():
 		help='Run without asking for confirmation')
 	parser.add_argument('-lib', dest='lib', action='store_true',
 		help='Makes a lib instead of a exe (no main.cpp is made)')
-	parser.add_argument('-no_main', dest='lib', action='store_true',
+	parser.add_argument('-no_main', dest='no_main', action='store_true',
 		help='Do not create a default main.cpp')
 	args = parser.parse_args()
 	
